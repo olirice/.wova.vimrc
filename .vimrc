@@ -9,8 +9,8 @@ syntax on
 let g:EclimCompletionMethod = 'omnifunc'
 
 
-set rtp+=~/.wova.vim/.vim/bundle/Vundle.vim
-call vundle#begin("~/.wova.vim/.vim/bundle")
+set rtp+=~/vimrc/.vim/bundle/Vundle.vim
+call vundle#begin("~/vimrc/.vim/bundle")
 
     " Let Vundle manage Vundle
     " required !
