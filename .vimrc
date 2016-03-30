@@ -9,6 +9,7 @@ syntax on
 let g:EclimCompletionMethod = 'omnifunc'
 
 
+filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin("~/.vim/bundle")
     " Let Vundle manage Vundle
@@ -26,6 +27,7 @@ call vundle#begin("~/.vim/bundle")
     Bundle 'olirice/snipmate.vim'
     Bundle 'valloric/youcompleteme'
 call vundle#end()
+filetype plugin indent on
 
 " Line Numbers (Nerd Tree)
 set number
