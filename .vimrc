@@ -25,6 +25,7 @@ call vundle#begin("~/vimrc/.vim/bundle")
     Bundle 'scrooloose/nerdtree'
     Bundle 'scrooloose/syntastic'
     Bundle 'kien/rainbow_parentheses.vim'
+    Bundle 'msanders/snipmate.vim'
     Bundle 'valloric/youcompleteme'
 
 call vundle#end()
