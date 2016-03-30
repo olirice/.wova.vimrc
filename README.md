@@ -1,15 +1,17 @@
 # vimrc
 
 #### Clone Repository
-`$ git clone https://github.com/olirice/vimrc.git`
+`$ git clone https://github.com/olirice/.wova.vimrc.git`
 
-#### Add an alias to VIM to the project directory in ~/.bashrc
-`$ alias vim='vim -u ~/vimrc/.vimrc'`
 
-#### Source the changes
-`$ source ~/.bashrc`
+### Run the install script
+`$ ./install.sh`
 
 #### Start vim & install the vundle plugins & quit when done
 `$ vim -c ':PluginsInstall' -c 'q'`
+
+
+#### Uninstall
+`$ ./uninstall.sh`
 
 ##### Fin
