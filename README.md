@@ -12,7 +12,4 @@
 #### Start vim & install the vundle plugins & quit when done
 `$ vim -c ':PluginsInstall' -c 'q'`
 
-#### ???.... Profit
-
-
 ##### Fin
