@@ -11,11 +11,9 @@ let g:EclimCompletionMethod = 'omnifunc'
 
 set rtp+=~/.wova.vimrc/.vim/bundle/Vundle.vim
 call vundle#begin("~/.wova.vimrc/.vim/bundle")
-
     " Let Vundle manage Vundle
     " required !
     Bundle 'VundleVim/Vundle.vim'
-    
     " My Bundles
     Bundle 'ctrlpvim/ctrlp.vim'
     Bundle 'derekwyatt/vim-scala'
@@ -27,7 +25,6 @@ call vundle#begin("~/.wova.vimrc/.vim/bundle")
     Bundle 'kien/rainbow_parentheses.vim'
     Bundle 'msanders/snipmate.vim'
     Bundle 'valloric/youcompleteme'
-
 call vundle#end()
 
 " Line Numbers (Nerd Tree)
