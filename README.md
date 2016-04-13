@@ -1,7 +1,7 @@
 # vimrc
 
 #### Clone Repository
-`$ git clone https://github.com/olirice/.wova.vimrc.git`
+`$ git --recursive clone https://github.com/olirice/.wova.vimrc.git`
 
 
 ### Run the install script
