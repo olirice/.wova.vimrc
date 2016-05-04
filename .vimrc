@@ -92,10 +92,10 @@ noremap j h
  
 
 " Remap switch active split
-map <C-h> <C-W>h
-map <C-l> <C-W>l
-map <C-j> <C-W>j
-map <C-k> <C-W>k
+nnoremap gk <C-W><C-J>
+nnoremap gl <C-W><C-K>
+nnoremap g; <C-W><C-L>
+nnoremap gj <C-W><C-H>
 
 " Disable Arrow keys in all normal and insert mode
 nnoremap <up> <NOP>
