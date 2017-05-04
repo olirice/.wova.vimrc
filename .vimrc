@@ -25,7 +25,6 @@ call vundle#begin("~/.vim/bundle")
     Bundle 'scrooloose/syntastic'
     Bundle 'kien/rainbow_parentheses.vim'
     Bundle 'olirice/snipmate.vim'
-    Bundle 'valloric/youcompleteme'
 call vundle#end()
 filetype plugin indent on
 
