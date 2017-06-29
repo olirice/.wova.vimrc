@@ -16,6 +16,7 @@ call vundle#begin("~/.vim/bundle")
     " required !
     Bundle 'VundleVim/Vundle.vim'
     " My Bundles
+    Bundle 'davidhalter/jedi-vim'
     Bundle 'ctrlpvim/ctrlp.vim'
     Bundle 'derekwyatt/vim-scala'
     Bundle 'myusuf3/numbers.vim'
