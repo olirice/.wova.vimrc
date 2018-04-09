@@ -4,11 +4,6 @@ filetype plugin indent on    " required
 
 syntax on
 
-" Neocomplete
-"let g:neocomplete#enable_at_startup = 1
-let g:EclimCompletionMethod = 'omnifunc'
-
-
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin("~/.vim/bundle")
@@ -31,6 +26,9 @@ filetype plugin indent on
 
 " Line Numbers (Nerd Tree)
 set number
+
+" Tell syntastic which python linter to use
+let g:syntastic_python_checkers = ['pylint']
 
 " Nerd Tree (Toggle with Ctrl+n)
 map <C-n> :NERDTreeToggle<CR>   " Toggle tree on/off
